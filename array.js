@@ -17,8 +17,15 @@ const [a, b, c] = makeArray(5, 6, 7)
 console.log(a, b, c);
 
 
+
+
 // Object Destrutturing
 
 const { name, salary } = { name: "Alif", id: 1531, salary: 2000, designation: 'IT Executive' };
 console.log(name, salary);
 
+
+const person = {
+    name: 'Alif'
+    
+}
